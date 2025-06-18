@@ -4,7 +4,7 @@
 ![pytorch](https://img.shields.io/badge/framework-pytorch-red)
 ![umap](https://img.shields.io/badge/visualization-UMAP-blue)
 
-This project implements a **custom Variational Autoencoder (VAE)** trained on **single-cell gene expression data** with **temporal metadata**. It was originally developed for a course in Machine Learning for Computational Biology (BIOINF593 @ University of Michigan), but has evolved into an experiment in time-aware generative modeling.
+This project implements a **custom Variational Autoencoder (VAE)** trained on **single-cell gene expression data** with **temporal metadata**. It was originally developed for a course in Machine Learning for Computational Biology, but has evolved into an experiment in time-aware generative modeling.
 
 Rather than predicting time directly, this VAE is trained to **embed cells in a latent space that reflects biological time**, using **capture time** as a prior during KL divergence calculation. The result is a compressed, smooth, and interpretable representation of gene expression trajectories over time — one that could be used to analyze development, progression, or response to perturbation.
 
