@@ -59,3 +59,21 @@ pip install torch numpy pandas matplotlib umap-learn
 
 # Run training (requires .npy and .csv input files)
 python scvae.py
+```
+
+
+## 🔮 Future Directions
+
+This project opened my eyes to the power of generative models in biological data. Here are a few directions I'm eager to explore next:
+
+🧭 **Unsupervised pseudotime learning** — replace true capture time with inferred priors
+🌿 **Branching latent spaces** — model developmental bifurcations using mixture priors
+🧬 **Multi-omics VAEs** — integrate epigenetic or chromatin accessibility alongside gene expression
+🔁 **Interpolate cell states** — simulate intermediate states by sampling in latent space
+🧪 **Drug response modeling** — condition VAE on treatment type to study cellular reprogramming
+
+## 🧠 Why This Matters
+
+Understanding cellular trajectories is essential in developmental biology, regenerative medicine, and disease progression. This model is a step toward building **generative**, **interpretable**, and **biologically grounded tools** for analyzing high-dimensional single-cell data.
+
+If you're interested in building on this — or just want to geek out about VAEs in biology — feel free to connect!
